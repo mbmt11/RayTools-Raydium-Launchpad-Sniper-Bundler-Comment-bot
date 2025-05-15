@@ -79,6 +79,9 @@ Our specialized bots are designed to give you an unparalleled advantage on Raydi
 
 Access RayTools and our specialized LaunchLab bots through our [website](https://raytools.bot)! Try our free trial before you proceed to buy any of our softwares!
 
+
+<p align="center"><img src="https://i.imgur.com/DhP6wqB.png" alt="RayTools Bots in Action" width="600"/></p>
+
 ---
 
 ## 📜 License
