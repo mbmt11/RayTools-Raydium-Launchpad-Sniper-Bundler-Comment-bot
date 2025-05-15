@@ -77,7 +77,7 @@ Our specialized bots are designed to give you an unparalleled advantage on Raydi
 
 ## 📥 How to Access RayTools (Download/Get Started)
 
-Access RayTools and our specialized LaunchLab bots through our [website](raytools.bot)! Try our free trial before you proceed to buy any of our softwares!
+Access RayTools and our specialized LaunchLab bots through our [website](https://raytools.bot)! Try our free trial before you proceed to buy any of our softwares!
 
 ---
 
